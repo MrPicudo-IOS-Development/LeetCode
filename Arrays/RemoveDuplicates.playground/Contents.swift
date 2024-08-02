@@ -50,7 +50,6 @@ var aux: Int = 0
 var nums: [Int] = [1, 1, 1, 2, 3, 3, 4, 4, 5, 6, 7, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 11, 11, 11, 12, 12, 13]
 
 func removeDuplicates(_ nums: inout [Int]) -> Int {
-    
     for i in 1 ..< nums.count {
         aux = nums[k-1]
         // Si el número siguiente en el array es distinto, entonces se pone en el lugar que le toca
